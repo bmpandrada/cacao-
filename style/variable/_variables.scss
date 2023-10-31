@@ -1,0 +1,22 @@
+$input-bg: #ffffff;
+$input-color: #000000(0, 0, 0);   
+$color-primary: #3d302a !important;
+$color-primary-light: #3d302a61 !important;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+$colors: (
+  "white": #ffff,
+  "main-glow": #ecc020,
+);
+
+$navbar-light-active-color: map-get($colors, "white");
+$breadcrumb-divider: quote(">");

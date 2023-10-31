@@ -1,0 +1,56 @@
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#searchBox {
+  border-radius: 55px;
+  padding: 1px 10px;
+  background: #f0f3ff;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+
+#googleIcon {
+  width: 30px  ;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass {
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+input {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif !important;
+  width: 0px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  transition: 1s;
+}
+
+.active input {
+  width: 200px;
+  padding: 0;
+}
+
+.active .mic-icon {
+  width: 20px;
+}
+
+.fa-solid  {
+    font-size: 1.6rem !important;
+}
+
+.navbar{
+    .d-flex{
+        position: relative;
+    }
+}

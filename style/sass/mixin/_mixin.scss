@@ -1,0 +1,30 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    transform: none;
+
+    @include media-breakpoint-down(lg) {
+    .active input {
+    width: 150px;
+    padding: 0;
+    }
+    .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    transform: none;
+    }
+    #searchBox {
+        padding: 0 10px;
+        margin-bottom: 1rem;
+      }
+      
+}
+}
+
+
